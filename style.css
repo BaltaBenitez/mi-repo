@@ -1,0 +1,255 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+    /*para bootstrap*/
+    background-color: black !important;
+}
+.logo {
+    color: yellow;
+    text-decoration: none;
+}
+.titulo {
+    font-family: 'Sigmar', cursive;
+    color: yellow;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.nav-enlace {
+    display: inline-block;
+    background-color: black;
+    color: yellow;
+    padding: 10px 30px;
+    text-decoration: none;   
+}
+.nav-enlace:hover {
+    background-color: yellowgreen;
+}
+.facebok{
+    display: inline-block;
+    color: yellow;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.facebok:hover{
+    background-color: yellowgreen;
+}
+
+.inicio-a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellowgreen;
+    margin-left: 1%;
+}
+
+.inicio-b{
+    padding-left: 23%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt {
+    background-color: orange;
+    color: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+video {
+    padding-left: 23%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.resee {
+    background-color: grey;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.resee-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}  
+.resee-author {
+    font-style: italic;
+    color: black;
+}
+/**local**/
+
+.local-img {
+    padding-left: 36%;  
+}
+.locall{
+    padding-left: 36%;
+}
+
+.locall a{
+    display: inline-block;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+    padding: 10px 30px;
+    text-decoration: none;   
+}
+.afuera1:hover{
+    background-color: yellowgreen;
+}
+
+.contacto-local{
+    color: yellow;
+}
+.contacto-local form{ 
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 4px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: yellow;
+}
+.local-pr {
+    width: 500px;
+    background-color: white;
+    padding: 1%;
+    margin: 1px;
+    border-radius: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+/**Sobre N**/
+.home{
+    display: flex;
+    flex-wrap: wrap;
+}
+.in-flex{
+    flex: 1;
+    min-width: 250px;    
+}
+.in-flex:first-child{
+    flex: 2;
+    padding: 25px;
+    background-color: red;
+    margin-bottom: 0px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.in-flex div{
+    padding: 25px;
+    background-color: grey;
+    margin: 20px;
+}
+/**Servicios**/
+.mus {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50px;
+    color: yellow;
+}
+/*
+.serv {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+}
+.serv-fts img {
+    width: 500px;
+    height: 450px;
+}
+.horarios {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 25px;
+    align-items: center;
+    color: yellow;
+}
+/* Membresia */
+table {
+    margin-top: 50px;
+    caption-side: bottom;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: yellow;
+}
+
+th {
+    background-color: grey;
+    color: black;
+}
+td th {
+    border: 2px solid white;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.mem-pr {
+    width: 500px;
+    background-color: white;
+    padding: 1%;
+    margin: 1px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/**Contacto**/
+.form{
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 2.5em 3em;
+    border-radius: 10px;
+    text-align: center;
+}
+.form__title{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+.form__container{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
+.form__group{
+    position: relative;
+    color: grey;
+}
+.form__input{
+    width: 100%;
+    background: none;
+    color: grey;
+    font-size: 1rem;
+    padding: .5em .2em;
+    border: none;
+    /*outline: none;*/
+    outline-color: rgb(35, 117, 211);
+    border-bottom: 1px solid var(grey);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form__label{
+    color: rgb(35, 117, 211);
+    cursor: pointer;
+}
+.form__submit{
+    background-color: rgb(35, 117, 211);
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+    padding: .8em 0;
+    border-radius: 5em;
+}
