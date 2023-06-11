@@ -4,8 +4,6 @@
 }
 body {
     background-color: black;
-    /*para bootstrap*/
-    background-color: black !important;
 }
 .logo {
     color: yellow;
@@ -25,22 +23,30 @@ body {
     background-color: black;
     color: yellow;
     padding: 10px 30px;
-    text-decoration: none;   
+    text-decoration: none;
 }
 .nav-enlace:hover {
     background-color: yellowgreen;
 }
+.footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 .facebok{
-    display: inline-block;
     color: yellow;
-    padding: 10px 30px;
     text-decoration: none;
+    font-size: 25px;
 }
-
+.facebokk{
+    color: yellow;
+    font-size: 25px;
+    text-align: center;
+}
 .facebok:hover{
-    background-color: yellowgreen;
+    transform: scale(1.2em);
 }
-
 .inicio-a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: yellowgreen;
@@ -158,24 +164,6 @@ img {
     font-weight: 50px;
     color: yellow;
 }
-/*
-.serv {
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    align-items: center;
-}
-.serv-fts img {
-    width: 500px;
-    height: 450px;
-}
-.horarios {
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 25px;
-    align-items: center;
-    color: yellow;
-}
 /* Membresia */
 table {
     margin-top: 50px;
@@ -207,23 +195,26 @@ td th {
 }
 /**Contacto**/
 .form{
-    background-color: white;
+    background-color: black;
     width: 400px;
     margin: auto;
-    width: 90%;
-    max-width: 400px;
+    width: 40%;
+    max-width: 360px;
     padding: 2.5em 3em;
     border-radius: 10px;
+    border: solid yellow;
     text-align: center;
 }
 .form__title{
-    font-size: 1.5rem;
+    color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.5rem;
     margin-bottom: .5rem;
 }
 .form__container{
-    margin-top: 3em;
+    margin-top: 3rem;
     display: grid;
-    gap: 2.5em;
+    gap: 3rem;
 }
 .form__group{
     position: relative;
@@ -237,19 +228,23 @@ td th {
     padding: .5em .2em;
     border: none;
     /*outline: none;*/
-    outline-color: rgb(35, 117, 211);
-    border-bottom: 1px solid var(grey);
+    outline-color: yellow;
+    border-bottom: 1px solid yellow;
     font-family: Arial, Helvetica, sans-serif;
 }
 .form__label{
-    color: rgb(35, 117, 211);
+    margin-top: 0.5rem;
+    color: rgba(255, 255, 0, 0.541);
     cursor: pointer;
 }
 .form__submit{
-    background-color: rgb(35, 117, 211);
-    color: white;
+    margin-top: 2.5rem;
+    background-color: yellow;
+    color: black;
     width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;;
     font-size: 1rem;
     padding: .8em 0;
-    border-radius: 5em;
+    border: none;
+    border-radius: 1em;
 }
