@@ -33,6 +33,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
+    transition: all ease 1.5s; /*hover a*/
 }
 .facebok{
     color: yellow;
@@ -44,8 +45,9 @@ body {
     font-size: 25px;
     text-align: center;
 }
-.facebok:hover{
-    transform: scale(1.2em);
+.footer a:hover{
+    transform: scale(1.7);
+    color: yellowgreen;
 }
 .inicio-a{
     font-family: Georgia, 'Times New Roman', Times, serif;
