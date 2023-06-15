@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     
@@ -44,8 +45,7 @@
         
     </header>
     
-   <main id="intro">
-        <H1>Locales</H1>
+    <main id="intro">
 
         <div class="local-img">
             <img src="gym1.jpg" alt="Arena1" class="afuera">
@@ -53,45 +53,70 @@
         </div>
 
         <section class="locall"> 
-
-            <a href="https://goo.gl/maps/ZSZFzVG5483yBG759" target="_blank" class="afuera1"> Arena 1</a>
+            <a href="https://goo.gl/maps/ZSZFzVG5483yBG759" target="_blank" class="afuera1">Arena 1</a>
             
+            <a href="https://goo.gl/maps/c1wu5do2bgwwfVCE9" target="_blank" class="afuera1">Arena 2</a>
             
-            <a href="https://goo.gl/maps/c1wu5do2bgwwfVCE9" target="_blank" class="afuera1"> Arena 2</a>
             <p style="color: yellow;">De lunes a viernes de 7hs a 22hs. Sabados de 9hs a 15hs</p>
         </section>
-        <a href="https://api.whatsapp.com/?phone=1161688299%22" target="_blank" class="bt-wp">
-            <i></i>
+        <a href="https://api.whatsapp.com/?phone=1161688299%22" target="_blank" class="bt-wpp">
+          <i class="fa-brands fa-whatsapp"></i>
         </a>
-        <!--<section>
-            <form class="form">
-                <h2 class="form__title">CONTACTO</h2>
-                
-                <div class="form__container">
-                    <div class="form__group">
-                        <input type="text" id="name" class="form__input" placeholder="Nombe completo">
-                        <label for="name" class="form__label">Nombre</label>
-                        <span class="form__line"></span>
-                    </div>
-                    <div class="form__group"></div>
-                        <input type="email" id="gm" class="form__input" placeholder="Gmail" required>
-                        <label for="gm" class="form__label">Gmail</label>
-                        <span class="form__line"></span>
-                    </div>
-                        <div class="form__group"></div>
-                        <input type="text" id="pr-c" class="form__input" placeholder="Consulta o pregunta">
-                        <label for="text"class="form__label">Consulta o Pregunta</label>
-                        <span class="form__line"></span>
-                    </div>
-                    
-                
-                    <input type="submit" class="form__submit" value="Enviar">
-                </div>
-            </form>
-        </section>-->
-
     
-    
+        <div id="carouselExampleIndicators-arena1" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./interior/pecho11.jpg" class="d-block mx-auto" alt="sala de pecho en arena 1">
+            </div>
+            <div class="carousel-item">
+              <img src="./interior/pierna11.png" class="d-block mx-auto" alt="sala de pierna en arena 1">
+            </div>
+            <div class="carousel-item">
+              <img src="./interior/peso-muero11.png" class="d-block mx-auto" alt="sala de peso muerto en arena 1">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-arena1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-arena1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br><br><br>
+          <!--2do carusel-->
+        <div id="carouselExampleIndicators-arena2" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./interior/pecho22.jpg" class="d-block mx-auto" alt="sala de pecho en arena 2">
+            </div>
+            <div class="carousel-item">
+              <img src="./interior/pierna22.jpg" class="d-block mx-auto" alt="sala de pierna en areana 2">
+            </div>
+            <div class="carousel-item">
+              <img src="./interior/guardado22.png" class="d-block mx-auto" alt="lockers en arena 2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators-arena2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators-arena2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
     </main> 
     
     <footer id="footer"> 
@@ -104,5 +129,6 @@
             <p class="facebokk">&copf; 2017</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
