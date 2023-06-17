@@ -1,32 +1,44 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 body {
     background-color: black;
 }
-.logo {
-    color: yellow;
+#header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoo{
+    display: flex;
+    align-items: center;
     text-decoration: none;
-}
-.titulo {
-    font-family: 'Sigmar', cursive;
     color: yellow;
 }
-
-.menu ul li {
-    display: inline-block;
+.logoo img {
+    height: 80px;
 }
-
+.menuu ul li{
+    display: inline;
+}
 .nav-enlace {
     display: inline-block;
-    background-color: black;
-    color: yellow;
-    padding: 10px 30px;
     text-decoration: none;
+    color: yellow;
+    padding-right: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
 }
 .nav-enlace:hover {
-    background-color: yellowgreen;
+    color: yellowgreen;
+}
+@media (max-width:700px ){
+    #header{
+        flex-direction: column;
+    }
 }
 .footer{
     margin-top: 100px;
@@ -52,67 +64,30 @@ body {
 .inicio-a{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: yellowgreen;
-    margin-left: 1%;
+    display: grid;
+    place-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-
 .inicio-b{
-    padding-left: 23%;
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-}
-
-.bt {
-    background-color: orange;
-    color: none;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-}
-
-video {
-    padding-left: 23%;
-    display: flex;
-    gap: 50px;
-    justify-content: center;
-    align-items: center;
-}
-
-.resee {
-    background-color: grey;
-    border-radius: 8px;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-.resee-text {
-    font-size: 16px;
-    margin-bottom: 10px;
-}  
-.resee-author {
-    font-style: italic;
-    color: black;
+    display: grid;
+    place-items: center;
 }
 /**local**/
-.local-img{
-    padding-left: 36%;
+.sos1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: white;
 }
-.locall{
-    padding-left: 36%;
+.ssp h2{
+    margin-left: 35px;
 }
-.locall a{
-    display: inline-block;
-    background-color: black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: yellow;
-    padding: 10px 30px;
-    text-decoration: none;   
-}
-.afuera1:hover{
-    background-color: yellowgreen;
+.ssp p{
+    margin-left: 35px;
 }
 .bt-wpp{
-    position: fixed;
     width: 55px;
     height: 55px;
     line-height: 55px;
@@ -124,7 +99,9 @@ video {
     text-align: center;
     font-size: 30px;
     box-shadow: 0px 1px 10px rgba(0, 255, 21, 0.664);
+    position: fixed;
     z-index: 100px;
+    
 }
 .bt-wpp:hover {
     text-decoration: none;
