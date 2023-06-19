@@ -1,0 +1,18 @@
+
+$colorPrimario: black;
+$colorSecundario: yellow;
+$colorhhover: yellowgreen;
+$letraPrimaria: sans-serif;
+
+$border: 2px solid yellow;
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body{
+    background-color: $colorPrimario;
+}
+@import "cabezapie";
+@import "indice";

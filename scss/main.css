@@ -1,0 +1,112 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: black;
+}
+
+#header {
+  display: flex;
+  min-height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .logoo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: yellow;
+}
+#header .logoo img {
+  height: 90px;
+}
+#header .menuu ul li {
+  display: inline;
+}
+#header .menuu ul li .nav-enlace {
+  display: inline-block;
+  text-decoration: none;
+  color: yellow;
+  padding-right: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+#header .menuu ul li .nav-enlace:hover {
+  color: yellowgreen;
+}
+
+#footer .footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 25px;
+}
+#footer .footer a:hover {
+  transform: scale(1.7);
+}
+#footer .footer .facebok {
+  text-decoration: none;
+  color: yellow;
+  font-size: 25px;
+}
+#footer div .facebokk {
+  color: yellow;
+  font-size: 25px;
+  text-align: center;
+}
+
+#intro .inicio-a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: yellowgreen;
+  display: grid;
+  place-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#intro .inicio-b {
+  display: grid;
+  place-items: center;
+  margin-bottom: 10px;
+}
+#intro .bt-wpp {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 30px;
+  right: 35px;
+  background-color: #0df053;
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 255, 21, 0.664);
+  position: fixed;
+  z-index: 100px;
+}
+#intro .bt-wpp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background-color: white;
+}
+#intro .details {
+  list-style: none;
+  width: 500px;
+  background-color: black;
+  border: solid yellow;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-left: 15px;
+  font-family: sans-serif;
+  color: yellow;
+  cursor: pointer;
+}
+#intro .details .summary {
+  list-style: none;
+}
+#intro .details .summary .summ {
+  margin-top: 15px;
+}/*# sourceMappingURL=main.css.map */
