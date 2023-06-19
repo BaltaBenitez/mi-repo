@@ -5,6 +5,8 @@ $colorhhover: yellowgreen;
 $letraPrimaria: sans-serif;
 
 $border: 2px solid yellow;
+$celular: 400px;
+
 
 *{
     margin: 0px;
@@ -14,5 +16,7 @@ $border: 2px solid yellow;
 body{
     background-color: $colorPrimario;
 }
+@import "media";
+
 @import "cabezapie";
 @import "indice";

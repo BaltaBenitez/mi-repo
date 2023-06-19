@@ -1,0 +1,5 @@
+@mixin celular {
+    @media (max-width:$celular){
+        @content;
+    }
+}

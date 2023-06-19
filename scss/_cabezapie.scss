@@ -3,6 +3,9 @@
     min-height: 70px;
     justify-content: space-between;
     align-items: center;
+    @include celular {
+        flex-direction: column;
+    }
     .logoo{
         display: flex;
         align-items: center;
@@ -23,6 +26,9 @@
                     padding-right: 10px;
                     font-family: $letraPrimaria;
                     font-size: 20px;
+                    @include celular {
+                        font-size: 13px;
+                    }
                 }
                 .nav-enlace:hover{
                     color: $colorhhover;
