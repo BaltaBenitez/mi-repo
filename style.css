@@ -365,20 +365,22 @@ img {
     #carouselExampleIndicators-arena1 img{
         width: 410px;
         height: 410px;
+        margin: 0 auto;
     }
     #carouselExampleIndicators-arena2 img{
         width: 410px;
         height: 410px;
+        margin: 0 auto;
     }
     /*servicios*/
     #carouselExampleCaptions img{
-        width: 640px;
-        height: 425px;
+        width: 410px;
+        height: 410px;
         margin: 0 auto;
     }
     #carouselExampleIndicators img{
-        width: 640px;
-        height: 425px;
+        width: 410px;
+        height: 410px;
         margin: 0 auto;
     }
     /*membresia*/
