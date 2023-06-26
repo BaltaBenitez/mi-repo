@@ -1,0 +1,31 @@
+#intro{
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+        .in-flex{
+            flex: 1;
+            min-width: 250px;
+            div {
+                img {
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+        .in-flex:first-child{
+            flex: 2;
+            padding: 25px;
+            background-color: grey;
+            margin-bottom: 0px;
+        }
+        .in-flex {
+            div{
+                padding: 25px;
+                background-color: grey;
+                margin: 20px;
+            }
+        }
+    }
+}

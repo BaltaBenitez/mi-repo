@@ -1,0 +1,48 @@
+#intro{
+    .sos1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        .ssp{
+            h2{
+                margin-left: 35px;
+            }
+            a{
+                text-decoration: none;
+                color: $colorSecundario;
+            }
+            a:hover{
+                color: $colorhhover;
+            }
+            p{
+                margin-left: 35px;
+                color: white;
+            }
+        }
+    }
+    #carouselExampleIndicators-arena1{
+        img{
+            width: 510px;
+            height: 510px;
+            margin: 0 auto;
+            @include celular {
+                width: 410px;
+                height: 410px;
+                margin: 0 auto;
+            }
+        }
+    }
+    #carouselExampleIndicators-areana2{
+        img{
+            width: 510px;
+            height: 510px;
+            margin: 0 auto;
+            @include celular {
+                width: 410px;
+                height: 410px;
+                margin: 0 auto;
+            }
+        }
+    }
+}

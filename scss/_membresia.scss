@@ -1,0 +1,57 @@
+#intro{
+    .contenedor-m {
+        width: 90%;
+        max-width: 900px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        @include celular {
+            margin-top: 20px;
+            padding-bottom: 15px;
+            width: 325px;
+            flex-wrap: wrap;
+        }
+        .tabl {
+            width: 33%;
+            height: 350px;
+            margin: auto;
+            border: $border;
+            border-radius: 4px;
+            padding: 60px;
+            text-align: center;
+            flex-grow: 1;
+            color: $colorSecundario;
+            @include celular {
+                height: 250px;
+            }
+            h2{
+                display: block;
+                font-size: 30px;
+                margin-bottom: 35px;
+            }
+            i{
+                font-size: 70px;
+                margin-bottom: 35px;
+            }
+            h3{
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            p{
+                display: block;
+                margin-bottom: 20px;
+            }
+        }
+        .tabl:hover{
+            background-color: $colorPrimario;
+            color: $colorSecundario;
+            transition: 1s all;
+            transform: scale(1.1);
+            cursor: pointer;
+            @include celular {
+                transform: none;
+            }
+        }
+    }
+}

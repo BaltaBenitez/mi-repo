@@ -1,8 +1,10 @@
 
 $colorPrimario: black;
 $colorSecundario: yellow;
+$colorCuadro: rgb(17, 16, 16);
 $colorhhover: yellowgreen;
 $letraPrimaria: sans-serif;
+$letraTitulo: Georgia, 'Times New Roman', Times, serif;
 
 $border: 2px solid yellow;
 $celular: 570px;
@@ -16,7 +18,12 @@ $celular: 570px;
 body{
     background-color: $colorPrimario;
 }
-/*@import "media";*/
+@import "media";
 
 @import "cabezapie";
 @import "indice";
+@import "local";
+@import "nosotros";
+@import "servicios";
+@import "membresia";
+@import "ccontacto";
