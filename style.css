@@ -399,8 +399,11 @@ a:hover{
         font-size: 1.2rem;
     }
     .inicio-b{
-        width: 310px;
-        height: 310px;
+        display: grid;
+        place-items: center;
+        margin-bottom: 1.5rem;
+        width: 110px;
+        height: auto;
     }
     .index-contenedor{
         flex-direction: column;
