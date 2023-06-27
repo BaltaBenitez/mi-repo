@@ -399,10 +399,13 @@ a:hover{
         font-size: 1.2rem;
     }
     .inicio-b{
-        width: 410px;
-        height: auto;
+        width: 310px;
+        height: 310px;
     }
     .index-contenedor{
+        flex-direction: column;
+    }
+    .index-contenedor2{
         flex-direction: column;
     }
     .index-contenedor h2{
