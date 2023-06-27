@@ -15,8 +15,8 @@
         place-items: center;
         margin-bottom: 10px;
         @include celular{
-            width: 410px;
-            height: auto;
+            width: 320px;
+            height: 320px;
         }
     }
     .inicio-c{
@@ -119,6 +119,7 @@
             }
             p{
                 padding-top: 3.5rem;
+                padding-left: 4.5rem;
                 color: white;
                 font-family: $letraPrimaria;
                 font-family: 1.2rem;

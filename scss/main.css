@@ -89,8 +89,8 @@ body {
 }
 @media (max-width: 570px) {
   #intro .inicio-b {
-    width: 410px;
-    height: auto;
+    width: 320px;
+    height: 320px;
   }
 }
 #intro .inicio-c {
@@ -189,6 +189,7 @@ body {
 }
 #intro .index-contenedor2 .index-contenedor2 p {
   padding-top: 3.5rem;
+  padding-left: 4.5rem;
   color: white;
   font-family: sans-serif;
   font-family: 1.2rem;
