@@ -17,14 +17,25 @@
         .in-flex:first-child{
             flex: 2;
             padding: 25px;
-            background-color: grey;
+            background-color: black;
             margin-bottom: 0px;
+            @include celular {
+                font-size: 15px;
+                margin: 5px;
+                padding: 5px;
+            }
+
         }
         .in-flex {
             div{
                 padding: 25px;
-                background-color: grey;
+                background-color: black;
                 margin: 20px;
+                @include celular {
+                    margin: 5px;
+                    padding: 5px;
+                    font-size: 15px;
+                }
             }
         }
     }

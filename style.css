@@ -398,6 +398,10 @@ a:hover{
     .inicio-a{
         font-size: 1.2rem;
     }
+    .inicio-b{
+        width: 410px;
+        height: auto;
+    }
     .index-contenedor{
         flex-direction: column;
     }

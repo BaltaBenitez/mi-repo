@@ -6,11 +6,18 @@
         place-items: center;
         margin-top: 10px;
         margin-bottom: 10px;
+        @include celular {
+            font-size: 1.2rem;
+        }
     }
     .inicio-b{
         display: grid;
         place-items: center;
         margin-bottom: 10px;
+        @include celular{
+            width: 410px;
+            height: auto;
+        }
     }
     .inicio-c{
         font-family: $letraTitulo;
@@ -73,11 +80,19 @@
         display: flex;
         background-color: $colorCuadro;
         padding: 25px;
+        @include celular {
+            flex-direction: column;
+        }
         .index-texto{
             h2{
                 padding-left: 4.5rem;
                 font-family: $letraTitulo;
                 color: $colorhhover;
+                @include celular {
+                    padding-top: 10px;
+                    padding-left: 2rem;
+                    padding-bottom: 10px;
+                }
             }
             p{
                 padding-top: 3.5rem;
@@ -94,6 +109,9 @@
         background-color: $colorCuadro;
         padding: 25px;
         .index-contenedor2{
+            @include  celular {
+                flex-direction: column;
+            }
             h2{
                 padding-left: 4.5rem;
                 font-family: $letraTitulo;
@@ -104,6 +122,10 @@
                 color: white;
                 font-family: $letraPrimaria;
                 font-family: 1.2rem;
+                @include celular {
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
             }
         }
     }
