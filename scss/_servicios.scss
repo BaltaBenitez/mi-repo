@@ -13,16 +13,14 @@
         }
     }
     #carouselExampleCaptions-servicios1{
-        .carousel-item{
-            img{
-                width: 510px;
-                height: 510px;
+        img{
+            width: 510px;
+            height: 510px;
+            margin: 0 auto;
+            @include celular {
+                width: 410px;
+                height: 410px;
                 margin: 0 auto;
-                @include celular {
-                    width: 410px;
-                    height: 410px;
-                    margin: 0 auto;
-                }
             }
         }
     }
@@ -40,16 +38,14 @@
         }
     }
     #carouselExampleIndicators-horarios{
-        .carousel-item{
-            img{
-                width: 510px;
-                height: 510px;
+        img{
+            width: 510px;
+            height: 510px;
+            margin: 0 auto;
+            @include celular {
+                width: 410px;
+                height: 410px;
                 margin: 0 auto;
-                @include celular {
-                    width: 410px;
-                    height: 410px;
-                    margin: 0 auto;
-                }
             }
         }
     }
