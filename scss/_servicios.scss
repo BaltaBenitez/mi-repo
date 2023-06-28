@@ -13,6 +13,13 @@
         }
     }
     #carouselExampleCaptions-servicios1{
+        width: 50vw;
+        height: auto;
+        margin: 1rem auto;
+        @include celular {
+            width: 80%;
+            margin: 0 auto;
+        }
         img{
             width: 510px;
             height: 510px;
@@ -38,6 +45,13 @@
         }
     }
     #carouselExampleIndicators-horarios{
+        width: 50vw;
+        height: auto;
+        margin: 1rem auto;
+        @include celular {
+            width: 80%;
+            margin: 0 auto;
+        }
         img{
             width: 510px;
             height: 510px;
@@ -47,6 +61,5 @@
                 height: 410px;
                 margin: 0 auto;
             }
-        }
-    }
+        }    }
 }

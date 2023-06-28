@@ -268,6 +268,17 @@ body {
   margin-left: 35px;
   color: white;
 }
+#intro #carouselExampleIndicators-arena1 {
+  width: 50vw;
+  height: auto;
+  margin: 1rem auto;
+}
+@media (max-width: 570px) {
+  #intro #carouselExampleIndicators-arena1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 #intro #carouselExampleIndicators-arena1 img {
   width: 510px;
   height: 510px;
@@ -277,6 +288,17 @@ body {
   #intro #carouselExampleIndicators-arena1 img {
     width: 410px;
     height: 410px;
+    margin: 0 auto;
+  }
+}
+#intro #carouselExampleIndicators-arena2 {
+  width: 50vw;
+  height: auto;
+  margin: 1rem auto;
+}
+@media (max-width: 570px) {
+  #intro #carouselExampleIndicators-arena2 {
+    width: 80%;
     margin: 0 auto;
   }
 }
@@ -409,6 +431,17 @@ body {
   color: yellow;
   padding-left: 0.5rem;
 }
+#intro #carouselExampleCaptions-servicios1 {
+  width: 50vw;
+  height: auto;
+  margin: 1rem auto;
+}
+@media (max-width: 570px) {
+  #intro #carouselExampleCaptions-servicios1 {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
 #intro #carouselExampleCaptions-servicios1 img {
   width: 510px;
   height: 510px;
@@ -431,6 +464,17 @@ body {
   font-size: 17px;
   color: yellow;
   padding-left: 0.5rem;
+}
+#intro #carouselExampleIndicators-horarios {
+  width: 50vw;
+  height: auto;
+  margin: 1rem auto;
+}
+@media (max-width: 570px) {
+  #intro #carouselExampleIndicators-horarios {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 #intro #carouselExampleIndicators-horarios img {
   width: 510px;
