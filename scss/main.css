@@ -268,25 +268,25 @@ body {
   margin-left: 35px;
   color: white;
 }
-#intro #carouselExampleIndicators-arena1 img {
+#intro #carouselExampleIndicators-arena1 .carousel-item img {
   width: 510px;
   height: 510px;
   margin: 0 auto;
 }
 @media (max-width: 570px) {
-  #intro #carouselExampleIndicators-arena1 img {
+  #intro #carouselExampleIndicators-arena1 .carousel-item img {
     width: 410px;
     height: 410px;
     margin: 0 auto;
   }
 }
-#intro #carouselExampleIndicators-areana2 img {
+#intro #carouselExampleIndicators-arena2 .carousel-item img {
   width: 510px;
   height: 510px;
   margin: 0 auto;
 }
 @media (max-width: 570px) {
-  #intro #carouselExampleIndicators-areana2 img {
+  #intro #carouselExampleIndicators-arena2 .carousel-item img {
     width: 410px;
     height: 410px;
     margin: 0 auto;
@@ -409,13 +409,13 @@ body {
   color: yellow;
   padding-left: 0.5rem;
 }
-#intro #carouselExampleCaptions img {
+#intro #carouselExampleCaptions-servicios1 .carousel-item img {
   width: 510px;
   height: 510px;
   margin: 0 auto;
 }
 @media (max-width: 570px) {
-  #intro #carouselExampleCaptions img {
+  #intro #carouselExampleCaptions-servicios1 .carousel-item img {
     width: 410px;
     height: 410px;
     margin: 0 auto;
@@ -432,13 +432,13 @@ body {
   color: yellow;
   padding-left: 0.5rem;
 }
-#intro #carouselExampleIndicators img {
+#intro #carouselExampleIndicators-horarios .carousel-item img {
   width: 510px;
   height: 510px;
   margin: 0 auto;
 }
 @media (max-width: 570px) {
-  #intro #carouselExampleIndicators img {
+  #intro #carouselExampleIndicators-horarios .carousel-item img {
     width: 410px;
     height: 410px;
     margin: 0 auto;
