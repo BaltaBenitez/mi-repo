@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0px;
   padding: 0px;
@@ -72,8 +73,7 @@ body {
 #intro .inicio-a {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: yellowgreen;
-  display: grid;
-  place-items: center;
+  text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -85,20 +85,23 @@ body {
 #intro .inicio-b {
   display: grid;
   place-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 1.5rem;
 }
 @media (max-width: 570px) {
   #intro .inicio-b {
-    width: 320px;
-    height: 320px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #intro .inicio-b img {
+    max-width: 100%;
+    height: auto;
   }
 }
 #intro .inicio-c {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 30px;
   color: yellowgreen;
-  display: grid;
-  place-items: center;
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -213,7 +216,7 @@ body {
   font-size: 30px;
   box-shadow: 0px 1px 10px rgba(0, 255, 21, 0.664);
   position: fixed;
-  z-index: 100px;
+  z-index: 100;
 }
 #intro .bt-wpp:hover {
   text-decoration: none;
@@ -255,11 +258,11 @@ body {
 #intro .sos1 .ssp h2 {
   margin-left: 35px;
 }
-#intro .sos1 .ssp a {
+#intro .sos1 .ssp h2 a {
   text-decoration: none;
   color: yellow;
 }
-#intro .sos1 .ssp a:hover {
+#intro .sos1 .ssp h2 a:hover {
   color: yellowgreen;
 }
 #intro .sos1 .ssp p {
@@ -291,41 +294,108 @@ body {
   }
 }
 
-#intro .home {
-  display: flex;
-  flex-wrap: wrap;
-}
-#intro .home .in-flex {
-  flex: 1;
-  min-width: 250px;
-}
-#intro .home .in-flex:first-child {
-  flex: 2;
-  padding: 25px;
-  background-color: black;
-  margin-bottom: 0px;
-  font-size: 35px;
+#intro .parrafos {
+  margin-top: 1rem;
   color: white;
+  font-size: 18px;
+  letter-spacing: normal;
+  line-height: 1.7;
+}
+#intro .parrafos .dueños h2 {
+  text-align: center;
+  margin: 1rem 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: yellowgreen;
 }
 @media (max-width: 570px) {
-  #intro .home .in-flex:first-child {
-    font-size: 15px;
-    margin: 5px;
-    padding: 5px;
+  #intro .parrafos .dueños h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 700;
   }
 }
-#intro .home .in-flex div {
-  margin: 10px;
-  padding: 18px;
-  background-color: black;
+#intro .parrafos .dueños p {
+  margin-left: 15px;
+  font-family: sans-serif;
   font-size: 20px;
-  color: white;
 }
 @media (max-width: 570px) {
-  #intro .home .in-flex div {
-    margin: 5px;
-    padding: 5px;
-    font-size: 15px;
+  #intro .parrafos .dueños p {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+#intro .parrafos .dueños-img {
+  max-width: 570px;
+  margin: 0 auto;
+  text-align: center;
+}
+#intro .parrafos .dueños-img img {
+  max-width: 100%;
+  height: auto;
+}
+#intro .parrafos .ambiente h2 {
+  text-align: center;
+  margin: 1rem 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: yellowgreen;
+}
+@media (max-width: 570px) {
+  #intro .parrafos .ambiente h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+#intro .parrafos .ambiente p {
+  margin-left: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+@media (max-width: 570px) {
+  #intro .parrafos .ambiente p {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+}
+#intro .parrafos .arenas h2 {
+  text-align: center;
+  margin: 1rem 1rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: yellowgreen;
+}
+@media (max-width: 570px) {
+  #intro .parrafos .arenas h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 700;
+  }
+}
+#intro .parrafos .arenas h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gold;
+  margin-left: 25px;
+}
+@media (max-width: 570px) {
+  #intro .parrafos .arenas h3 {
+    margin-left: 12px;
+  }
+}
+#intro .parrafos .arenas p {
+  margin-left: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+@media (max-width: 570px) {
+  #intro .parrafos .arenas p {
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 300;
   }
 }
 
@@ -448,6 +518,11 @@ body {
   border-radius: 10px;
   border: solid yellow;
   text-align: center;
+}
+@media (max-width: 570px) {
+  #intro .form .form {
+    margin-top: 1rem;
+  }
 }
 #intro .form .form__title {
   color: yellow;

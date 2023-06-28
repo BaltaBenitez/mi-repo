@@ -9,6 +9,11 @@
         border-radius: 10px;
         border: solid yellow;
         text-align: center;
+        @include celular {
+            .form {
+                margin-top: 1rem;
+            }
+        }
         .form__title{
             color: yellow;
             font-family: sans-serif;

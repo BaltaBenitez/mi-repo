@@ -7,13 +7,13 @@
         .ssp{
             h2{
                 margin-left: 35px;
-            }
-            a{
-                text-decoration: none;
-                color: $colorSecundario;
-            }
-            a:hover{
-                color: $colorhhover;
+                a{
+                    text-decoration: none;
+                    color: $colorSecundario;
+                }
+                a:hover{
+                    color: $colorhhover;
+                }
             }
             p{
                 margin-left: 35px;
