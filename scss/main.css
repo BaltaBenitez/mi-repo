@@ -271,47 +271,49 @@ body {
 #intro #carouselExampleIndicators-arena1 {
   width: 50vw;
   height: auto;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
 }
 @media (max-width: 570px) {
   #intro #carouselExampleIndicators-arena1 {
     width: 80%;
-    margin: 0 auto;
+    margin: 0.5rem auto;
   }
 }
 #intro #carouselExampleIndicators-arena1 img {
   width: 510px;
   height: 510px;
-  margin: 0 auto;
+  margin: 0.5rem auto;
 }
 @media (max-width: 570px) {
   #intro #carouselExampleIndicators-arena1 img {
-    width: 410px;
-    height: 410px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 410px;
+    height: auto;
+    margin: 0.5rem auto;
   }
 }
 #intro #carouselExampleIndicators-arena2 {
   width: 50vw;
   height: auto;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
 }
 @media (max-width: 570px) {
   #intro #carouselExampleIndicators-arena2 {
     width: 80%;
-    margin: 0 auto;
+    margin: 0.5rem auto;
   }
 }
 #intro #carouselExampleIndicators-arena2 img {
   width: 510px;
   height: 510px;
-  margin: 0 auto;
+  margin: 0.5rem auto;
 }
 @media (max-width: 570px) {
   #intro #carouselExampleIndicators-arena2 img {
-    width: 410px;
-    height: 410px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 410px;
+    height: auto;
+    margin: 0.5rem auto;
   }
 }
 
@@ -434,24 +436,25 @@ body {
 #intro #carouselExampleCaptions-servicios1 {
   width: 50vw;
   height: auto;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
 }
 @media (max-width: 570px) {
   #intro #carouselExampleCaptions-servicios1 {
     width: 80%;
-    margin: 0 auto;
+    margin: 0.5rem auto;
   }
 }
 #intro #carouselExampleCaptions-servicios1 img {
   width: 510px;
   height: 510px;
-  margin: 0 auto;
+  margin: 0.5rem auto;
 }
 @media (max-width: 570px) {
   #intro #carouselExampleCaptions-servicios1 img {
-    width: 410px;
-    height: 410px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 410px;
+    height: auto;
+    margin: 0.5rem auto;
   }
 }
 #intro .mus2 h2 {
@@ -468,24 +471,25 @@ body {
 #intro #carouselExampleIndicators-horarios {
   width: 50vw;
   height: auto;
-  margin: 1rem auto;
+  margin: 0.5rem auto;
 }
 @media (max-width: 570px) {
   #intro #carouselExampleIndicators-horarios {
     width: 80%;
-    margin: 0 auto;
+    margin: 0.5rem auto;
   }
 }
 #intro #carouselExampleIndicators-horarios img {
   width: 510px;
   height: 510px;
-  margin: 0 auto;
+  margin: 0.5rem auto;
 }
 @media (max-width: 570px) {
   #intro #carouselExampleIndicators-horarios img {
-    width: 410px;
-    height: 410px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 410px;
+    height: auto;
+    margin: 0.5rem auto;
   }
 }
 

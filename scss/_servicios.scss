@@ -4,62 +4,65 @@
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: 30px;
             color: $colorhhover;
-            padding-left: .5rem;
+            padding-left: 0.5rem;
         }
         h3{
             font-size: 17px;
             color: $colorSecundario;
-            padding-left: .5rem;
+            padding-left: 0.5rem;
         }
     }
     #carouselExampleCaptions-servicios1{
         width: 50vw;
         height: auto;
-        margin: 1rem auto;
+        margin: 0.5rem auto;
         @include celular {
             width: 80%;
-            margin: 0 auto;
+            margin: 0.5rem auto;
         }
         img{
             width: 510px;
             height: 510px;
-            margin: 0 auto;
+            margin: 0.5rem auto;
             @include celular {
-                width: 410px;
-                height: 410px;
-                margin: 0 auto;
+              width: 100%;
+              max-width: 410px;
+              height: auto;
+              margin: 0.5rem auto;
             }
-        }
+        }   
     }
     .mus2{
         h2{
             font-family: Georgia, 'Times New Roman', Times, serif;
             font-weight: 30px;
             color: $colorhhover;
-            padding-left: .5rem;
+            padding-left: 0.5rem;
         }
         h3{
             font-size: 17px;
             color: $colorSecundario;
-            padding-left: .5rem;
+            padding-left: 0.5rem;
         }
     }
     #carouselExampleIndicators-horarios{
         width: 50vw;
         height: auto;
-        margin: 1rem auto;
+        margin: 0.5rem auto;
         @include celular {
             width: 80%;
-            margin: 0 auto;
+            margin: 0.5rem auto;
         }
         img{
             width: 510px;
             height: 510px;
-            margin: 0 auto;
+            margin: 0.5rem auto;
             @include celular {
-                width: 410px;
-                height: 410px;
-                margin: 0 auto;
+              width: 100%;
+              max-width: 410px;
+              height: auto;
+              margin: 0.5rem auto;
             }
-        }    }
+        }     
+    }        
 }
