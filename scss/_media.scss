@@ -1,5 +1,12 @@
+@mixin tablet {
+    @media (max-width:$tablet){
+        @content;
+    }
+}
+
 @mixin celular {
     @media (max-width:$celular){
         @content;
     }
 }
+

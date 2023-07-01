@@ -66,7 +66,7 @@ body {
 }
 #footer div .facebokk {
   color: yellow;
-  font-size: 25px;
+  font-size: 17px;
   text-align: center;
 }
 
@@ -96,53 +96,6 @@ body {
     max-width: 100%;
     height: auto;
   }
-}
-#intro .inicio-c {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 30px;
-  color: yellowgreen;
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-#intro .testimonios .caja-testimonios {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-#intro .testimonios .caja-testimonios .caja-t {
-  background-color: rgb(17, 16, 16);
-  margin: 1rem;
-  padding: 1rem;
-  text-align: center;
-  position: relative;
-  border: 2px solid yellow;
-  flex-grow: 1rem;
-  flex-shrink: 1rem;
-  flex-basis: 15rem;
-}
-#intro .testimonios .caja-testimonios .caja-t .userr {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: yellow;
-}
-#intro .testimonios .caja-testimonios .caja-t .userr h3 {
-  font-size: 2rem;
-  font-family: Georgia, "Times New Roman", Times, serif;
-}
-#intro .testimonios .caja-testimonios .caja-t .estrellas .fa-star {
-  color: gold;
-  padding: 5px;
-}
-#intro .testimonios .caja-testimonios .caja-t .comentario {
-  color: white;
-  font-family: sans-serif;
-  font-size: 15px;
-}
-#intro .testimonios .caja-testimonios .caja-t .fecha {
-  color: grey;
 }
 #intro .index-contenedor {
   margin: 40px 0 60px 0;
@@ -186,7 +139,7 @@ body {
   }
 }
 #intro .index-contenedor2 .index-texto2 h2 {
-  padding-left: 4.5rem;
+  padding-right: 3.5rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: yellowgreen;
 }
@@ -201,6 +154,62 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
   }
+}
+#intro .inicio-c {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: yellowgreen;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#intro .testimonios {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+  text-align: center;
+}
+@media (max-width: 570px) {
+  #intro .testimonios {
+    flex-direction: column;
+  }
+}
+#intro .testimonios .box {
+  padding: 20px 20px;
+}
+#intro .testimonios .box p {
+  font-size: 20px;
+}
+@media (max-width: 570px) {
+  #intro .testimonios .box p {
+    font-size: 15px;
+  }
+}
+#intro .testimonios .box i {
+  font-size: 20px;
+  margin-top: 10px;
+  color: gold;
+}
+#intro .testimonios .box .fecha-fecha {
+  margin-top: 7px;
+  color: gray;
+}
+#intro .testimonios .box .name-user {
+  margin-top: 7px;
+}
+#intro .index-index-t {
+  text-align: center;
+}
+#intro .index-index-t .reseñas {
+  text-decoration: none;
+  color: yellow;
+  color: orange;
+  padding: 10px 10px;
+}
+#intro .index-index-t .reseñas:hover {
+  color: yellowgreen;
 }
 #intro .bt-wpp {
   width: 55px;
@@ -221,6 +230,12 @@ body {
   text-decoration: none;
   color: #0df053;
   background-color: white;
+}
+#intro .inicio-d {
+  margin-left: 15px;
+  font-size: 30px;
+  color: yellowgreen;
+  padding: 10px 10px;
 }
 #intro .details {
   list-style: none;
@@ -267,6 +282,17 @@ body {
 #intro .sos1 .ssp p {
   margin-left: 35px;
   color: white;
+}
+#intro .local-title h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 30px;
+  color: yellowgreen;
+  padding-left: 0.5rem;
+}
+#intro .local-title h3 {
+  font-size: 17px;
+  color: yellow;
+  padding-left: 0.5rem;
 }
 #intro #carouselExampleIndicators-arena1 {
   width: 50vw;
@@ -334,8 +360,7 @@ body {
   #intro .parrafos .dueños h2 {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 30px;
-    font-weight: 700;
+    font-weight: 30px;
   }
 }
 #intro .parrafos .dueños p {
@@ -369,8 +394,8 @@ body {
   #intro .parrafos .ambiente h2 {
     margin-top: 5px;
     margin-bottom: 5px;
+    font-weight: 30px;
     font-size: 30px;
-    font-weight: 700;
   }
 }
 #intro .parrafos .ambiente p {
@@ -395,8 +420,8 @@ body {
   #intro .parrafos .arenas h2 {
     margin-top: 5px;
     margin-bottom: 5px;
+    font-weight: 30px;
     font-size: 30px;
-    font-weight: 700;
   }
 }
 #intro .parrafos .arenas h3 {
@@ -422,13 +447,13 @@ body {
   }
 }
 
-#intro .mus h2 {
+#intro .servicios-title h2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 30px;
   color: yellowgreen;
   padding-left: 0.5rem;
 }
-#intro .mus h3 {
+#intro .servicios-title h3 {
   font-size: 17px;
   color: yellow;
   padding-left: 0.5rem;
@@ -437,6 +462,13 @@ body {
   width: 50vw;
   height: auto;
   margin: 0.5rem auto;
+}
+@media (max-width: 768px) {
+  #intro #carouselExampleCaptions-servicios1 {
+    width: 60vw;
+    height: auto;
+    margin: 0.5rem auto;
+  }
 }
 @media (max-width: 570px) {
   #intro #carouselExampleCaptions-servicios1 {
@@ -449,6 +481,13 @@ body {
   height: 510px;
   margin: 0.5rem auto;
 }
+@media (max-width: 768px) {
+  #intro #carouselExampleCaptions-servicios1 img {
+    width: 100%;
+    max-width: 510px;
+    margin: 0.5rem auto;
+  }
+}
 @media (max-width: 570px) {
   #intro #carouselExampleCaptions-servicios1 img {
     width: 100%;
@@ -457,21 +496,17 @@ body {
     margin: 0.5rem auto;
   }
 }
-#intro .mus2 h2 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 30px;
-  color: yellowgreen;
-  padding-left: 0.5rem;
-}
-#intro .mus2 h3 {
-  font-size: 17px;
-  color: yellow;
-  padding-left: 0.5rem;
-}
 #intro #carouselExampleIndicators-horarios {
   width: 50vw;
   height: auto;
   margin: 0.5rem auto;
+}
+@media (max-width: 768px) {
+  #intro #carouselExampleIndicators-horarios {
+    width: 60vw;
+    height: auto;
+    margin: 0.5rem auto;
+  }
 }
 @media (max-width: 570px) {
   #intro #carouselExampleIndicators-horarios {
@@ -483,6 +518,13 @@ body {
   width: 510px;
   height: 510px;
   margin: 0.5rem auto;
+}
+@media (max-width: 768px) {
+  #intro #carouselExampleIndicators-horarios img {
+    width: 100%;
+    max-width: 510px;
+    margin: 0.5rem auto;
+  }
 }
 @media (max-width: 570px) {
   #intro #carouselExampleIndicators-horarios img {
@@ -500,6 +542,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 768px) {
+  #intro .contenedor-m {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    width: 325px;
+    justify-content: center;
+  }
 }
 @media (max-width: 570px) {
   #intro .contenedor-m {
@@ -530,6 +581,12 @@ body {
   font-size: 30px;
   margin-bottom: 35px;
 }
+@media (max-width: 768px) {
+  #intro .contenedor-m .tabl h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
 #intro .contenedor-m .tabl i {
   font-size: 70px;
   margin-bottom: 35px;
@@ -542,12 +599,22 @@ body {
   display: block;
   margin-bottom: 20px;
 }
+@media (max-width: 768px) {
+  #intro .contenedor-m .tabl p {
+    display: inline;
+  }
+}
 #intro .contenedor-m .tabl:hover {
   background-color: black;
   color: yellow;
   transition: 1s all;
   transform: scale(1.1);
   cursor: pointer;
+}
+@media (max-width: 768px) {
+  #intro .contenedor-m .tabl:hover {
+    transform: none;
+  }
 }
 @media (max-width: 570px) {
   #intro .contenedor-m .tabl:hover {

@@ -21,6 +21,19 @@
             }
         }
     }
+    .local-title{
+        h2{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 30px;
+            color: $colorhhover;
+            padding-left: 0.5rem;
+        }
+        h3{
+            font-size: 17px;
+            color: $colorSecundario;
+            padding-left: 0.5rem;
+        }
+    }
     #carouselExampleIndicators-arena1{
         width: 50vw;
         height: auto;

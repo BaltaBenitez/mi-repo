@@ -6,6 +6,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @include tablet {
+            margin-top: 20px;
+            padding-bottom: 15px;
+            box-sizing: border-box;
+            width: 325px;
+            justify-content: center;
+        }
         @include celular {
             margin-top: 20px;
             padding-bottom: 15px;
@@ -29,6 +36,10 @@
                 display: block;
                 font-size: 30px;
                 margin-bottom: 35px;
+                @include tablet {
+                    font-size: 20px;
+                    text-align: center;
+                }
             }
             i{
                 font-size: 70px;
@@ -41,6 +52,9 @@
             p{
                 display: block;
                 margin-bottom: 20px;
+                @include tablet{
+                    display: inline;
+                }
             }
         }
         .tabl:hover{
@@ -49,6 +63,9 @@
             transition: 1s all;
             transform: scale(1.1);
             cursor: pointer;
+            @include tablet {
+                transform: none;
+            }
             @include celular {
                 transform: none;
             }

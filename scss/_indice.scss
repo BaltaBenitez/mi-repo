@@ -22,61 +22,6 @@
             }
         }
     }
-    .inicio-c{
-        font-family: $letraTitulo;
-        font-size: 30px;
-        color: $colorhhover;
-        text-align: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-    .testimonios{
-        .caja-testimonios{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-    }
-    .testimonios{
-        .caja-testimonios{
-            .caja-t{
-                background-color: $colorCuadro;
-                margin: 1rem;
-                padding: 1rem;
-                text-align: center;
-                position: relative;
-                border: $border;
-                flex-grow: 1rem;
-                flex-shrink: 1rem;
-                flex-basis: 15rem;
-                .userr{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    color: $colorSecundario;
-                    h3{
-                        font-size: 2rem;
-                        font-family: $letraTitulo;
-                    }
-                }
-                .estrellas {
-                    .fa-star{
-                        color: gold;
-                        padding: 5px;
-                    }
-                }
-                .comentario{
-                    color: white;
-                    font-family: $letraPrimaria;
-                    font-size: 15px;
-                }
-                .fecha{
-                    color: grey;
-                }
-            }
-        }
-    }
     .index-contenedor{
         margin: 40px 0 60px 0;
         display: flex;
@@ -115,7 +60,7 @@
         }
         .index-texto2{
             h2{
-                padding-left: 4.5rem;
+                padding-right: 3.5rem;
                 font-family: $letraTitulo;
                 color: $colorhhover;
             }
@@ -129,6 +74,58 @@
                     padding-bottom: 10px;
                 }
             }
+        }
+    }
+    .inicio-c{
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: yellowgreen;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .testimonios{
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 10px;
+        text-align: center;
+        @include celular {
+            flex-direction: column;
+        }
+        .box{
+            padding: 20px 20px;
+            p{
+                font-size: 20px;
+                @include celular {
+                    font-size: 15px;
+                }
+            }
+            i{
+                font-size: 20px;
+                margin-top: 10px;
+                color: gold;
+            }
+            .fecha-fecha{
+                margin-top: 7px;
+                color: gray;
+            }
+            .name-user{
+                margin-top: 7px;
+            }
+        }
+    }
+    .index-index-t{
+        text-align: center;
+        .reseñas {
+            text-decoration: none;
+            color: yellow;
+            color: orange;
+            padding: 10px 10px;
+        }
+        .reseñas:hover{
+            color: yellowgreen;
         }
     }
     .bt-wpp{
@@ -150,6 +147,12 @@
         text-decoration: none;
         color: #0df053;
         background-color: white;
+    }
+    .inicio-d{
+        margin-left: 15px;
+        font-size: 30px;
+        color: yellowgreen;
+        padding: 10px 10px;
     }
     .details {
         list-style: none;
