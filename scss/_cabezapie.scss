@@ -3,6 +3,9 @@
     min-height: 70px;
     justify-content: space-between;
     align-items: center;
+    @include tablet {
+        flex-direction: column;
+    }
     @include celular {
         flex-direction: column;
     }
@@ -14,6 +17,11 @@
         img{
             height: 90px;
         }
+        h2{
+            @include celular {
+                font-size: 18px;
+            }
+        }
     }
     .menuu{
         ul{
@@ -24,10 +32,17 @@
                     text-decoration: none;
                     color: $colorSecundario;
                     padding-right: 10px;
+                    box-sizing: border-box;
                     font-family: $letraPrimaria;
                     font-size: 20px;
+                    @include tablet {
+                        font-size: 20px;
+                        margin-right: 5px;
+                        box-sizing: border-box;
+                    }
                     @include celular {
                         font-size: 13px;
+                        box-sizing: border-box;
                     }
                 }
                 .nav-enlace:hover{
@@ -44,6 +59,9 @@
         justify-content: center;
         gap: 30px;
         font-size: 25px;
+        @include celular {
+            gap: 20px;
+        }
         a:hover{
             transform: scale(1.7);
         }
@@ -58,6 +76,9 @@
             color: $colorSecundario;
             font-size: 17px;
             text-align: center;
+            @include celular {
+                font-size: 15px;
+            }
         }
     }
 }

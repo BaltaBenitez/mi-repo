@@ -1,15 +1,21 @@
 #intro{
     .servicios-title{
         h2{
+            margin-top: 20px;
             font-family: Georgia, 'Times New Roman', Times, serif;
-            font-weight: 30px;
             color: $colorhhover;
             padding-left: 0.5rem;
+            @include celular {
+                font-size: 19px;
+            }
         }
         h3{
             font-size: 17px;
             color: $colorSecundario;
             padding-left: 0.5rem;
+            @include celular {
+                font-size: 13px;
+            }
         }
     }
     #carouselExampleCaptions-servicios1{
