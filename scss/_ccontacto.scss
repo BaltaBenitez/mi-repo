@@ -49,7 +49,7 @@
                 }
             }
             .form__submit{
-                margin-top: 2.5rem;
+                margin: 2rem 1;
                 background-color: yellow;
                 color: black;
                 width: 100%;
@@ -58,6 +58,12 @@
                 padding: .8em 0;
                 border: none;
                 border-radius: 1em;
+                @include tablet {
+                    margin: 1rem 0;
+                }
+                @include celular {
+                    margin: 1rem 0;
+                }
             }
         }
     }

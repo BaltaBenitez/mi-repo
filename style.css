@@ -61,16 +61,16 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     color: yellowgreen;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
 }
-.inicio-b{
+.un_fondo{
     display: grid;
     place-items: center;
-    margin-bottom: 1.5rem;
+}
+.un_fondo img  {
+    height: 500px;
 }
 .index-contenedor{
-    margin: 40px 0 60px 0;
     display: flex;
     background-color: rgb(17, 16, 16);
     padding: 25px;
@@ -88,7 +88,6 @@ body {
     font-family: 25px;
 }
 .index-contenedor2 {
-    margin-bottom: 15px;
     display: flex;
     background-color: rgb(17, 16, 16);
     padding: 25px;
@@ -403,11 +402,11 @@ a:hover{
     .inicio-a{
         font-size: 1.2rem;
     }
-    .inicio-b {
+    .un_fondo{
         margin: 0 auto;
         text-align: center;
     }
-    .inicio-b img{
+    .un_fondo img{
         max-width: 100%;
         height: auto;
     }
