@@ -15,6 +15,11 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+@media (max-width: 900px) {
+  #header {
+    flex-direction: column;
+  }
+}
 @media (max-width: 768px) {
   #header {
     flex-direction: column;
@@ -60,6 +65,7 @@ body {
 }
 @media (max-width: 570px) {
   #header .menuu ul li .nav-enlace {
+    padding-right: 5px;
     font-size: 13px;
     box-sizing: border-box;
   }
@@ -314,6 +320,7 @@ body {
 }
 
 #intro .sos1 {
+  margin: 1rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -588,14 +595,14 @@ body {
 #intro .contenedor-m {
   width: 90%;
   max-width: 900px;
-  margin: auto;
+  margin: 1rem auto;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 @media (max-width: 768px) {
   #intro .contenedor-m {
-    margin-top: 20px;
+    margin-top: 0.5rem;
     padding-bottom: 15px;
     box-sizing: border-box;
     width: 325px;
@@ -604,7 +611,7 @@ body {
 }
 @media (max-width: 570px) {
   #intro .contenedor-m {
-    margin-top: 20px;
+    margin-top: 0.5rem;
     padding-bottom: 15px;
     width: 325px;
     box-sizing: border-box;
@@ -698,7 +705,7 @@ body {
 #intro .form {
   background-color: black;
   width: 400px;
-  margin: auto;
+  margin: 1rem auto;
   width: 40%;
   max-width: 360px;
   padding: 2.5em 3em;
@@ -708,7 +715,7 @@ body {
 }
 @media (max-width: 570px) {
   #intro .form .form {
-    margin-top: 1rem;
+    margin: 1rem auto;
   }
 }
 #intro .form .form__title {

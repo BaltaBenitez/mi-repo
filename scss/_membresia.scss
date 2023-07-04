@@ -2,19 +2,19 @@
     .contenedor-m {
         width: 90%;
         max-width: 900px;
-        margin: auto;
+        margin: 1rem auto;
         display: flex;
         justify-content: center;
         align-items: center;
         @include tablet {
-            margin-top: 20px;
+            margin-top: 0.5rem;
             padding-bottom: 15px;
             box-sizing: border-box;
             width: 325px;
             justify-content: center;
         }
         @include celular {
-            margin-top: 20px;
+            margin-top: 0.5rem;
             padding-bottom: 15px;
             width: 325px;
             box-sizing: border-box;

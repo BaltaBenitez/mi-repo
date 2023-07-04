@@ -2,7 +2,7 @@
     .form{
         background-color: black;
         width: 400px;
-        margin: auto;
+        margin: 1rem auto;
         width: 40%;
         max-width: 360px;
         padding: 2.5em 3em;
@@ -11,7 +11,7 @@
         text-align: center;
         @include celular {
             .form {
-                margin-top: 1rem;
+                margin: 1rem auto;
             }
         }
         .form__title{
