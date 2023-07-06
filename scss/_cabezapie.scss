@@ -54,7 +54,14 @@
             line-height: 40px;
             .logo{
                 height: 50px;
-                border-radius: 50px;
+                border-radius: 100px;
+            }
+            .title{
+                font-family: sans-serif;
+                color: yellow;
+                font-size: 24px;
+                font-weight: 600;
+                margin: 0;
             }
         }
         ul{
