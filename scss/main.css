@@ -754,6 +754,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+@media (max-width: 1000px) {
+  #intro .contenedor-m {
+    margin-top: 0.5rem;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    width: 325px;
+    justify-content: center;
+  }
+}
 @media (max-width: 768px) {
   #intro .contenedor-m {
     margin-top: 0.5rem;
@@ -793,6 +802,12 @@ body {
   font-size: 30px;
   margin-bottom: 35px;
 }
+@media (max-width: 1000px) {
+  #intro .contenedor-m .tabl h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
 @media (max-width: 768px) {
   #intro .contenedor-m .tabl h2 {
     font-size: 20px;
@@ -828,6 +843,11 @@ body {
   display: block;
   margin-bottom: 20px;
 }
+@media (max-width: 1000px) {
+  #intro .contenedor-m .tabl p {
+    display: inline;
+  }
+}
 @media (max-width: 768px) {
   #intro .contenedor-m .tabl p {
     display: inline;
@@ -844,6 +864,11 @@ body {
   transition: 1s all;
   transform: scale(1.1);
   cursor: pointer;
+}
+@media (max-width: 1000px) {
+  #intro .contenedor-m .tabl:hover {
+    transform: none;
+  }
 }
 @media (max-width: 768px) {
   #intro .contenedor-m .tabl:hover {
