@@ -3,7 +3,7 @@
 
 *This was a project for web development in CoderHouse.*
 
-[DEPLOY](https://arenasgym.netlify.app/)
+[ARENA.com](https://arenasgym.netlify.app/ "ARENA WEB SITE")
 
 ## 🛠 Skills
 ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
