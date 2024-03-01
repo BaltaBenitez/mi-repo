@@ -1,0 +1,42 @@
+.aboutUS__container {
+    .aboutUS__container-parrafo {
+        margin-left: 10px;
+        p {
+            font-size: large;
+        }
+    }
+    .aboutUS-img {
+        width: 100%;
+        text-align: center;
+        @include medium {
+            max-width: 100%;
+            height: auto;
+        }
+        @include small {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    .aboutUS__container-arena {
+        margin-left: 15px;
+        p {
+            font-size: large;
+        }
+    }
+}
+
+.scroll-top {
+    position: fixed;
+    font-size: 40px;
+    z-index: 50;
+    right: 35px;
+    bottom: 30px;
+    background-color: transpredarent;
+    width: 40px;
+    height: 40px;
+    i {
+        background-color: transparent;
+        width: 40px;
+        height: 40px;
+    }
+}

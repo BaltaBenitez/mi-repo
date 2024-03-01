@@ -1,0 +1,14 @@
+.navbar-toggler{
+    border: none;
+    &:focus{
+        box-shadow: none;
+    }
+}
+
+.nav-item a {
+    color: $text-color;
+    
+    &:hover { 
+      color: $hoverColor
+    }
+}

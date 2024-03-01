@@ -1,0 +1,47 @@
+.card__locales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    .cards__locales{
+        img{
+            margin: 10px 0;
+        }
+        h4 {
+            .cards__locales-links {
+                text-decoration: none;
+                color: $hoverColor;
+            }
+        }
+    }
+}
+
+.local__descrip {
+    margin: 0 20px;
+}
+
+#carouselExample-arena1,
+#carouselExample-arena2,
+#carouselExample-servicios1,
+#carouselExample-horarios {
+    width: 50vw;
+    height: auto;
+    margin: 0.5rem auto;
+    @include small {
+        width: 100%;
+        height: auto;
+    }
+    @include medium {
+        width: 100%;
+        height: auto;
+    }
+    .carousel-item img {
+        width: 510px;
+        height: auto;
+        margin: 0 auto;
+        @include small {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

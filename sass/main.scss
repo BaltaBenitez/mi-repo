@@ -1,0 +1,45 @@
+$bg-colorDark: black;
+$text-color: yellow;
+$hoverColor: yellowgreen;
+$p-color: white;
+$letraDefault: 'Montserrat', sans-serif;
+// var: mediaQueris
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$extraLarge: 1200px;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $bg-colorDark;
+    font-family: $letraDefault;
+    color: $text-color;
+    text-decoration: none;
+    &::-webkit-scrollbar {
+        background: #15141a;
+        width: 6px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: yellowgreen;
+        width: 5px;
+        border-radius: 6px;
+        opacity: 0.6;
+    }
+} 
+
+p {
+    color: $p-color;
+}
+
+@import "mediaQueris";
+@import "header";
+@import "footer";
+//ARCHIVOS
+@import "index";
+@import "nosotros";
+@import "locales"; //LOCALES y SERVICIOS tienen carouseles 
+@import "membresias";
+@import "contacto";

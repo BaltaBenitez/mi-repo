@@ -1,0 +1,45 @@
+.section__form {
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
+    .form{
+        border: solid $text-color;
+        border-radius: 10px;
+        width: 400px;
+        height: 500px;
+        padding: 30px;
+        text-align: center;
+        /* font-family: 'Montserrat', sans-serif; */
+        .form__title {
+            margin-bottom: 30px;
+        }
+        .form__container {
+            display: grid;
+            gap: 50px;
+            .form__group {
+                position: relative;
+                color: grey;
+                .form__input {
+                    width: 100%;
+                    background: none;
+                    border: none;
+                    outline: none;
+                    outline-color: $text-color;
+                    border-bottom: solid $text-color 1px;
+                    font-family: 'Montserrat', sans-serif;
+                }
+                .form__label {
+                    margin-top: 10px;
+                    cursor: pointer;
+                }
+            }
+            .form-btn {
+                background-color: yellow;
+                padding: 10px;
+                color: black;
+                border: none;
+                border-radius: 10px;
+            }  
+        }
+    }
+}

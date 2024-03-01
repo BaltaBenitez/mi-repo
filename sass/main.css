@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+  color: yellow;
+  text-decoration: none;
+}
+*::-webkit-scrollbar {
+  background: #15141a;
+  width: 6px;
+}
+*::-webkit-scrollbar-thumb {
+  background: yellowgreen;
+  width: 5px;
+  border-radius: 6px;
+  opacity: 0.6;
+}
+
+p {
+  color: white;
+}
+
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-item a {
+  color: yellow;
+}
+.nav-item a:hover {
+  color: yellowgreen;
+}
+
+footer .footer__div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 20px;
+}
+footer .footer__div .footer_links:hover {
+  transform: scale(1.7);
+  color: yellowgreen;
+}
+footer .footer__div .footer_links i:hover {
+  transform: scale(1.7);
+  color: yellowgreen;
+}
+
+@media (max-width: 576px) {
+  #welcome img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  #welcome img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+#testimonios h2 {
+  color: yellowgreen;
+  text-align: center;
+}
+#testimonios .card__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+#testimonios .card__container .card__testimonios {
+  padding: 20px;
+  border: 2px solid yellow;
+  border-radius: 8px;
+}
+#testimonios .card__container .card__testimonios .card__testimonios-stars {
+  color: gold;
+  margin: 10px 0;
+}
+#testimonios .card__container .card__testimonios .card__testimonios-user {
+  margin: 10px 0;
+}
+#testimonios .testimonios__enlaces {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#testimonios .testimonios__enlaces .testimonios__enlaces-links {
+  text-decoration: none;
+  color: orange;
+}
+
+.preguntas__frecuentes .preguntas__frecuentes-h3 {
+  color: yellowgreen;
+  margin: 0 1px 15px 30px;
+}
+@media (max-width: 576px) {
+  .preguntas__frecuentes .preguntas__frecuentes-h3 {
+    text-align: center;
+  }
+}
+.preguntas__frecuentes details {
+  margin: 0 0 5px 30px;
+  list-style: none;
+  border: solid yellow 1px;
+  border-radius: 5px;
+  width: 50%;
+}
+@media (max-width: 576px) {
+  .preguntas__frecuentes details {
+    width: 70%;
+  }
+}
+.preguntas__frecuentes details summary {
+  list-style: none;
+  margin: 10px 0;
+}
+.preguntas__frecuentes details p a {
+  text-decoration: none;
+  color: yellowgreen;
+}
+
+.aboutUS__container .aboutUS__container-parrafo {
+  margin-left: 10px;
+}
+.aboutUS__container .aboutUS__container-parrafo p {
+  font-size: large;
+}
+.aboutUS__container .aboutUS-img {
+  width: 100%;
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .aboutUS__container .aboutUS-img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 576px) {
+  .aboutUS__container .aboutUS-img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.aboutUS__container .aboutUS__container-arena {
+  margin-left: 15px;
+}
+.aboutUS__container .aboutUS__container-arena p {
+  font-size: large;
+}
+
+.scroll-top {
+  position: fixed;
+  font-size: 40px;
+  z-index: 50;
+  right: 35px;
+  bottom: 30px;
+  background-color: transpredarent;
+  width: 40px;
+  height: 40px;
+}
+.scroll-top i {
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+}
+
+.card__locales {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+.card__locales .cards__locales img {
+  margin: 10px 0;
+}
+.card__locales .cards__locales h4 .cards__locales-links {
+  text-decoration: none;
+  color: yellowgreen;
+}
+
+.local__descrip {
+  margin: 0 20px;
+}
+
+#carouselExample-arena1,
+#carouselExample-arena2,
+#carouselExample-servicios1,
+#carouselExample-horarios {
+  width: 50vw;
+  height: auto;
+  margin: 0.5rem auto;
+}
+@media (max-width: 576px) {
+  #carouselExample-arena1,
+  #carouselExample-arena2,
+  #carouselExample-servicios1,
+  #carouselExample-horarios {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  #carouselExample-arena1,
+  #carouselExample-arena2,
+  #carouselExample-servicios1,
+  #carouselExample-horarios {
+    width: 100%;
+    height: auto;
+  }
+}
+#carouselExample-arena1 .carousel-item img,
+#carouselExample-arena2 .carousel-item img,
+#carouselExample-servicios1 .carousel-item img,
+#carouselExample-horarios .carousel-item img {
+  width: 510px;
+  height: auto;
+  margin: 0 auto;
+}
+@media (max-width: 576px) {
+  #carouselExample-arena1 .carousel-item img,
+  #carouselExample-arena2 .carousel-item img,
+  #carouselExample-servicios1 .carousel-item img,
+  #carouselExample-horarios .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.membresia-h2 {
+  color: yellow;
+  text-align: center;
+}
+
+.membresia__container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 40px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  text-align: center;
+  overflow-x: auto;
+  padding-bottom: 15px;
+}
+.membresia__container div {
+  width: 350px;
+  height: 400px;
+  border: solid yellow 2px;
+  border-radius: 5px;
+  padding: 60px;
+}
+.membresia__container div h3 {
+  display: block;
+  text-align: center;
+}
+.membresia__container div i {
+  font-size: 50px;
+}
+.membresia__container div h4 {
+  margin: 35px 0;
+}
+
+.section__form {
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+}
+.section__form .form {
+  border: solid yellow;
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+  padding: 30px;
+  text-align: center;
+  /* font-family: 'Montserrat', sans-serif; */
+}
+.section__form .form .form__title {
+  margin-bottom: 30px;
+}
+.section__form .form .form__container {
+  display: grid;
+  gap: 50px;
+}
+.section__form .form .form__container .form__group {
+  position: relative;
+  color: grey;
+}
+.section__form .form .form__container .form__group .form__input {
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  outline-color: yellow;
+  border-bottom: solid yellow 1px;
+  font-family: "Montserrat", sans-serif;
+}
+.section__form .form .form__container .form__group .form__label {
+  margin-top: 10px;
+  cursor: pointer;
+}
+.section__form .form .form__container .form-btn {
+  background-color: yellow;
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 10px;
+}/*# sourceMappingURL=main.css.map */

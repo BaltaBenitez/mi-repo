@@ -1,0 +1,76 @@
+#welcome {
+    img {
+        @include small {
+            max-width: 100%;
+            height: auto;
+        }
+        @include medium {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+
+#testimonios {
+    h2 {
+        color: $hoverColor;
+        text-align: center;
+    }
+
+    .card__container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); //responsiv
+        gap: 20px;
+        padding: 20px;
+        .card__testimonios {
+            padding: 20px;
+            border: 2px solid $text-color;
+            border-radius: 8px;
+            .card__testimonios-stars{
+                color: gold;
+                margin: 10px 0;
+            }
+            .card__testimonios-user {
+                margin: 10px 0;
+            }
+        }
+    }
+    .testimonios__enlaces {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        .testimonios__enlaces-links {
+            text-decoration: none;
+            color: orange;
+        }
+    }
+}
+.preguntas__frecuentes{
+    .preguntas__frecuentes-h3{
+        color: $hoverColor;
+        margin: 0 1px 15px 30px;
+        @include small {
+            text-align: center;
+        }
+    }
+    details {
+        margin: 0 0 5px 30px;
+        list-style: none;
+        border: solid $text-color 1px;
+        border-radius: 5px;
+        width: 50%; 
+        @include small {
+            width: 70%;
+        }
+        summary {
+            list-style: none;
+            margin: 10px 0;
+        }
+        p {
+            a {
+                text-decoration: none;
+                color: $hoverColor;
+            }
+        }
+    }
+}

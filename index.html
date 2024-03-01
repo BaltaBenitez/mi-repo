@@ -1,159 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arena Sport GYM</title>
-    <meta name="description" content="Descubre nuestro gimnasio de última generación, con equipos de alta calidad, entrenadores expertos y una amplia variedad de clases y programas de entrenamiento. Te ayudamos a alcanzar tus metas de fitness y llevar un estilo de vida saludable. ¡Visítanos hoy mismo y comienza tu viaje hacia una mejor versión de ti mismo!">
-    <meta name="keywords" content="hurlingham , gimnasio, fitness, entrenamiento, clases, rutinas, musculación">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="./scss/main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ARENA</title>
+  <link rel="shortcut icon" href="./images/arena-s.ico" type="image/x-icon">
+  <meta name="description" content="Descubre nuestro gimnasio de última generación, con equipos de alta calidad, entrenadores expertos y una amplia variedad de clases y programas de entrenamiento. Te ayudamos a alcanzar tus metas de fitness y llevar un estilo de vida saludable. ¡Visítanos hoy mismo y comienza tu viaje hacia una mejor versión de ti mismo!">
+  <meta name="keywords" content="hurlingham , gimnasio, fitness, entrenamiento, clases, rutinas, musculación">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./sass/main.css">
 </head>
 <body>
-    <header id="header">
-        <nav class="menu">
-            <input type="checkbox" id="check">
-            <label for="check" class="check-btn"><i class="fa-solid fa-bars"></i></label>
-            <a href="index.html" class="menu-enlace">
-                <img src="./imagenes/arenalogo.jpeg" class="logo">
-                <h2 class="title">Arena Sport GYM</h2>
-            </a>
-            
-            <ul> 
-                <li>
-                    <a href="./local.html" class="nav-enlace">Locales</a>
-                </li>
-                <li>
-                    <a href="./sobre-n.html" class="nav-enlace">Sobre Nosotros</a>
-                </li>
-                <li>
-                    <a href="./servicios.html" class="nav-enlace">Servicios</a>
-                </li>    
-                <li>
-                    <a href="./membresia.html" class="nav-enlace" >Membresia</a>
-                </li>
-                <li>
-                    <a href="./enviar-cv.html" class="nav-enlace">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main id="intro">
-        
-        <div>
-            <h2 class="inicio-a">Bienvenidos a Arena Sport GYM.</h2>
+  <header>
+    <nav class="navbar navbar-dark navbar-expand-md">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/arena-logo.jpeg" alt="" width="65">
+          ARENA </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>   
+        <div class="collapse navbar-collapse ms-auto text-center" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/aboutUs.html">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/locales.html">LOCALES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/servicios.html">SERVICIOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/membresias.html">MEMBRESIAS</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="welcome" class="text-center">
+        <h2>BIENVENIDOS A LA ARENA</h2>
+        <img src="./images/index-img-bg.jpg" alt="">
+    </div>
+    <section id="testimonios">
+        <h2>TESTIMONIOS</h2>
+        <div class="card__container">
+            <div class="card__testimonios">
+                <p>"Amplio, ventilado. Aparatos en buenas condiciones. Buena atención.. Gran franja horaria para acomodarse."</p>
+                <div class="card__testimonios-stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <h4 class="card__testimonios-user">Maria Lopez.</h4>
+            </div>
+            <div class="card__testimonios">
+                <p>"Excelente gimnasio excelente atención…!!! Vengo de ser estafado del sport club hurlinghan y me recomendaron el arena que no lo conocía y en verdad es excelente….!!!!."</p>
+                <div class="card__testimonios-stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                </div>
+                <h4 class="card__testimonios-user">Cleo Paqui.</h4>
+            </div>
+            <div class="card__testimonios">
+                <p>"Muy lindo gimnasio muy completo, no falta nada, buena atencion, buena gente..."</p>
+                <div class="card__testimonios-stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <h4 class="card__testimonios-user">Alberto Scarinci.</h4>
+            </div>
         </div>
 
-        <div class="un_fondo">
-            <img src="un-fondo.jpg" alt="motivacion">
+        <div class="testimonios__enlaces">
+            <a href="https://www.google.com/maps/place/Arena+Sport+GYM/@-34.5944751,-58.643626,15z/data=!4m18!1m9!3m8!1s0x95bcb950d31c8671:0x9fe95ac0f19a061!2sArena+Sport+GYM!8m2!3d-34.5944751!4d-58.643626!9m1!1b1!16s%2Fg%2F11g2_3trdc!3m7!1s0x95bcb950d31c8671:0x9fe95ac0f19a061!8m2!3d-34.5944751!4d-58.643626!9m1!1b1!16s%2Fg%2F11g2_3trdc?entry=ttu" target="_blank" class="testimonios__enlaces-links">Más Testimonios</a>
+            <p>|</p>
+            <a href="https://www.google.com/maps/place/Arena+Sport+GYM/@-34.5944751,-58.643626,15z/data=!4m18!1m9!3m8!1s0x95bcb950d31c8671:0x9fe95ac0f19a061!2sArena+Sport+GYM!8m2!3d-34.5944751!4d-58.643626!9m1!1b1!16s%2Fg%2F11g2_3trdc!3m7!1s0x95bcb950d31c8671:0x9fe95ac0f19a061!8m2!3d-34.5944751!4d-58.643626!9m1!1b1!16s%2Fg%2F11g2_3trdc?entry=ttu" target="_blank" class="testimonios__enlaces-links">Agregar un Testimonio</a>
         </div>
-
-        <section class="index-contenedor">
-            <img src="./imagenes/indice-beneficio.jpg" alt="img-de-las-benefiios">
-            <div class="index-texto"> 
-                <h2>El mejor gimnasio de Hurlingham</h2>
-                <p>Amplios horarios</p>
-                <p>Servicio de lockers</p>
-                <p>Wi-fi en todas las sedes</p>
-            </div>
-        </section>
-
-        <section class="index-contenedor2">
-            <div class="index-texto2"> 
-                <h2>Entrená en un espacio que se adapta a tus necesidades</h2>
-                <p>Sectores cardio con cintas y bicicletas</p>
-                <p>Áreas de musculación y elementos de entrenamiento.</p>
-                <p>Clases semanales de funcional, crossfit, boxeo y taekowodo.</p>
-            </div>
-            <img src="./imagenes/indice-clases.jpg" alt="img-de-las-cases">
-        </section>
-
-        <div>
-            <h2 class="inicio-c">Testimonios</h2>
-        </div>
-
-        <section class="testimonios">
-            <div class="box">
-                <p>Amplio, ventilado.aparatos en buenas condiciones. Buena atención.. Gran franja horaria para acomodarse</p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="far fa-star"></i>
-                <div class="fecha-fecha">Hace un mes</div>
-                <div class="name-user">Marina Lopez</div>
-            </div>
-            <div class="box">
-                <p>Excelente gimnasio excelente atención…!!! Vengo de ser estafado del sport club hurlinghan y me recomendaron el arena que no lo conocía y en verdad es excelente….!!!!</p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <div class="fecha-fecha">Hace un mes</div>
-                <div class="name-user">Cleo Paqui</div>
-            </div>
-            <div class="box">
-                <p>Muy lindo gimnasio muy completo, no falta nada, buena atencion, buena gente...</p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <div class="fecha-fecha">Hace 2 meses</div>
-                <div class="name-user">Alberto Scarinci</div>
-            </div>
-        </section>
-        <div class="index-index-t">
-            <a href="https://www.google.com/maps/place/Arena+Sport+GYM/@-34.5944751,-58.643626,15z/data=!4m18!1m9!3m8!1s0x95bcb950d31c8671:0x9fe95ac0f19a061!2sArena+Sport+GYM!8m2!3d-34.5944751!4d-58.643626!9m1!1b1!16s%2Fg%2F11g2_3trdc!3m7!1s0x95bcb950d31c8671:0x9fe95ac0f19a061!8m2!3d-34.5944751!4d-58.643626!9m1!1b1!16s%2Fg%2F11g2_3trdc?entry=ttu" target="_blank" class="reseñas">Más Testimonios</a>
-            <a href="https://www.google.com/maps/place/Arena+Sport+GYM/@-34.5944751,-58.643626,15z/data=!4m18!1m9!3m8!1s0x95bcb950d31c8671:0x9fe95ac0f19a061!2sArena+Sport+GYM!8m2!3d-34.5944751!4d-58.643626!9m1!1b1!16s%2Fg%2F11g2_3trdc!3m7!1s0x95bcb950d31c8671:0x9fe95ac0f19a061!8m2!3d-34.5944751!4d-58.643626!9m1!1b1!16s%2Fg%2F11g2_3trdc?entry=ttu" target="_blank" class="reseñas">Agregar un Testimonio</a>
-        </div>
-        <br>
-        <a href="https://wa.me/5491158493984" target="_blank" class="bt-wpp">
-          <i class="fa-brands fa-whatsapp"></i>
-        </a>
-
-        <div>
-            <h2 class="inicio-d">Preguntas Frecuentes</h2>
-        </div>
-
-        <details class="details">
-            <summary class="summary">¿Cuál es el proceso de inscripción para convertirse en miembro del gimnasio?
-            </summary>
-            <div class="summ">
-                <p>Ser mayor de 18, traer el DNI y firmar algunos paleles. Despues de eso tendras que sacarte una foto para pasar en el molinete de acceso.</p>
-            </div>
+    </section>
+    <div class="preguntas__frecuentes">
+        <h3 class="preguntas__frecuentes-h3">Preguntas frecuentes</h3>
+        <details>
+            <summary>¿Cuál es el proceso de inscripción para convertirse en miembro del gimnasio?</summary>
+            <p>Ser mayor de 18, traer el DNI y firmar algunos paleles. Despues de eso tendras que sacarte una foto para pasar en el molinete de acceso.</p>
         </details>
-        <details class="details">
-            <summary class="summary">¿Cuál es la duración de las membresías?</summary>
-            <div class="summ">
-                <p>La duración es memsual con pago unico o semanal.</p>
-            </div>
+        <details>
+            <summary>¿Cuál es la duración de las membresías?</summary>
+            <p>La duración es memsual con pago unico o semanal.</p>
         </details>
-        <details class="details">
-            <summary class="summary">¿Cuáles son los métodos de pago aceptados para la inscripción?</summary>
-            <div class="summ">
-                <p>Los métodos de pago son en efectivo, tarjeta o mediate Mercado Pago.</p>
-            </div>
+        <details>
+            <summary>¿Cuáles son los métodos de pago aceptados para la inscripción?</summary>
+            <p>Los métodos de pago son en efectivo, tarjeta o mediate Mercado Pago.</p>
         </details>
         <br>
-    </main>
-    <footer id="footer"> 
-        <div class="footer">
-            <a href="https://www.facebook.com/arenasportgym/" target="_blank" class="facebok"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.instagram.com/arenasportgym/?hl=es" target="_blank" class="facebok"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://open.spotify.com/playlist/7i8eKXUerugufXx4d0qMUQ" target="_blank" class="facebok"><i class="fa-brands fa-spotify"></i></a>
-            <a href="https://www.tiktok.com/@arenasportgym" target="_blank" class="facebok"><i class="fa-brands fa-tiktok"></i></a>
-        </div>
-        <br>
-        <div>    
-            <p class="facebokk">© 2023 Arena Sport GYM, todos los derechos reservados.</p>
-        </div>
-    </footer>
+    </div>
+  </main>
+  <footer>
+    <div class="footer__div">
+        <a href="https://www.facebook.com/arenasportgym/" target="_blank" class="footer_links"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/arenasportgym/?hl=es" target="_blank" class="footer_links"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.tiktok.com/@arenasportgym" target="_blank" class="footer_links"><i class="bi bi-tiktok"></i></a>
+    </div>
+    <div>
+        <p class="text-center my-3">Arena Sport GYM © 2023</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
