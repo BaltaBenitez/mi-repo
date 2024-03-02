@@ -8,6 +8,10 @@
             max-width: 100%;
             height: auto;
         }
+        @include large{
+            max-width: 100%;
+            height: auto;
+        }
     }
 }
 
