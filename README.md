@@ -1,7 +1,6 @@
-
 ## Project Arena
 
-[<img src="./images/arena-logo.jpeg" alt="Arena Logo" width="200"/>](https://arenasgym.netlify.app/ "ARENA WEB")
+[<img src="./images/arena-logo.jpeg" alt="Arena Logo" width="200"/>](https://arenasportgym.netlify.app/ "ARENA WEB")
 
 ### Technologies Used:
 ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
@@ -15,3 +14,8 @@
 - *Implemented with HTML5 and CSS3, utilizing SCSS for enhanced styling.*
 - *Utilized Bootstrap for streamlined and responsive layout.*
 - Implemented SEO best practices for improved search engine visibility.
+
+## Development and Deployment:
+- Version control managed with Git.
+- Project hosted on GitHub.
+- Deployment through Netlify.

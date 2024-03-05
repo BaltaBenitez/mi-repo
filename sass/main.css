@@ -63,6 +63,12 @@ footer .footer__div .footer_links i:hover {
     height: auto;
   }
 }
+@media (max-width: 992px) {
+  #welcome img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 #testimonios h2 {
   color: yellowgreen;
@@ -158,10 +164,10 @@ footer .footer__div .footer_links i:hover {
 .scroll-top {
   position: fixed;
   font-size: 40px;
-  z-index: 50;
-  right: 35px;
+  z-index: 40;
+  right: 30px;
   bottom: 30px;
-  background-color: transpredarent;
+  background-color: transparent;
   width: 40px;
   height: 40px;
 }
